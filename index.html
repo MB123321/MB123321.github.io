@@ -1,167 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="a free online art gallery">
-  <meta name="keywords" content="HTML,CSS">
-  <meta name="author" content="Mariella Burri">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> a way to express art </title>
-  <link href="styles/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Vidaloka&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="description" content="a free online art gallery">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Mariella Burri">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> a way to express art </title>
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Vidaloka&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<body class="w3-content" style="max-width:1200px">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-<style>
-     {
-        color: #999999;
-        font-size: 20px;
-        font-weight: 400;
-        box-sizing: border-box;
-        font-family: 'Monteserat', Arial, sans-serif;
-    }
-
-    header,
-    nav,
-    section,
-    aside,
-    footer {
-        text-align: center;
-        border-radius: 7px;
-        padding: 25px;
-        box-shadow: 0 5px 15px rgba(0,0,0,.08);
-    }
-
-    header {
-        width: 25%;
-        margin: 25px 25px 25px 25px;
-        display: inline-block;
-    }
-
-    nav {
-        width: calc(75% - 75px);
-        margin: 25px 25px 25px 0px;
-        float: right;
-    }
-
-    aside {
-        width: 25%;
-        float: left;
-        min-height: 517px;
-    }
-
-    section {
-        float: left;
-        width: calc(75% - 75px);
-        margin: 0 25px 25px 25px;
-    }
-
-    section header,
-    section article,
-    section footer {
-        width: 100%;
-        border-radius: 7px;
-        border: 1px solid #e5e5e5;
-        box-shadow: none;
-        margin: 25px 0px 0px 0px;
-        padding: 50px;
-    }
-
-    footer {
-        width: 96.5%;
-        margin: 25px 25px 0px 25px;
-        clear: both;
-    }
-</style>
-
 <body>
-    <main>
-      <header>
-        <h1>A way to express art</h1>
-        <img src="logo.png" alt="logo">
-           <!-- Logo/Website-Name -->
-      </header>
-     
-        <nav>
-        <ul>
-            <li><a href="Page2.html">Home</a></li>
-            <li><a href="Page3.html">CULTURE</a></li>
-            <li><a href="Page4.html">NATURE</a></li>
-            <li><a href="Page5.html">ARCHITECTURE</a></li>
-              <li><a href="Index2.html">Index2</a></li>
-        </ul>  
-        </nav> 
-     
-      <section>
-        <section>
-            <header>
-              <h2>A way to express art</h2>
-              <p class="subline">Eine online Gallerie für Photografie</p>
-            </header>
-            <article>
-               <p>Diese Website soll eine Plattform für Fotographie darstellen. Damit sollte sich die Möglichkeit geben...</p>
-               <div class="gallery">
-                <a target="_blank" href="Bild/Arch_photo1.jpg">
-                  <img src="Bild/Arch_photo1.jpg.jpg" alt="ARCHITECTURE" width="600" height="400">
-                </a>
-                <div class="desc">skyscrapers in London</div>
-              </div>
-              
-              <div class="gallery">
-                <a target="_blank" href="Bild/Nature1.JPG">
-                  <img src="Bild/Nature1.JPG" alt="NATURE" width="600" height="400">
-                </a>
-                <div class="desc">nationalpark in Fuertavenura</div>
-              </div> 
-    
-            
-              <div class="gallery">
-                <a target="_blank" href="Bild/Nautre5.JPG">
-                  <img src="Bild/Nautre5.JPG" alt="at the ocean" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-              
-              <div class="gallery">
-                <a target="_blank" href="img_mountains.jpg">
-                  <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-            </article>
-         </section>
-        section <!-- Ein Abschnitt der Website -->
-        <header>section header</header> <!-- Du Überschrift des Website-Abschnitts -->
-        <article>article class="blog-post">
-            <header class="blog-title">
-               <h1>HTML5-Basis-Template als Vorlage</h1>
-            </header>
-               <article class="blog-content">
-                  <p>Hier kommt der eigentliche Inhalt rein. HTML5 ist super!</p>
-               </article>
-            <footer>
-               Kommentare
-            </footer>
-         </article>
-         Das HTML5 foot</article> <!-- Der Inhalt des Website-Abschnitts -->
-        <footer>section footer</footer> <!-- Der Schlussteil des Website-Abschnitts -->
-      </section>
-     
-      <aside>
-        <img src="Bild/Arch_photo1.jpg"class= bild>
+<div class="w3-panel">
+  <i class="w3-xlarge fa fa-bars"></i>
+</div>
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+<div class="w3-half w3-container">
+  <h1 class="w3-xxlarge w3-text-light-grey">Hello</h1>
+  <h1 class="w3-xxlarge w3-text-grey">We are</h1>
+  <h1 class="w3-jumbo">InShock</h1>
+</div>
+<div class="w3-half w3-container w3-xlarge w3-text-grey">
+  <p class="">This is a plattform to express art. Photography is a beautiful way to express and to reflect about the world. The following web site has seeral different categories. As architecture, nature and culture.</p>
+  <p>The best thing about a picture is that it never changes, even when the people in it do.</p>
+</div>
+</div>
 
-        <h1><a href="https://mb123321.github.io/">HOME</a></h1>
-    
-        <h1 id="WEB_Project">A way to express art</h1>
-        <a href="https://www.nationalgeographic.com/">National Geographic </a>
-        <a href="#top">top</a>
-             <!-- Eine Seitenleiste -->
-      </aside>
-     
-      <footer>
-        <p>© 2020 Mariella Burri</p> <!-- Der Fußbereich -->
-      </footer>
+<!-- Second Grid: Resent -->
+<div class="w3-panel w3-text-grey">
+<h4>Some impressions:</h4>
+</div>
+<div class="w3-row">
+<div class="w3-half w3-container">
+  <img src="Bild/Arch_photo1.jpg" style="width:100%">
+</div>
+<div class="w3-half w3-container">
+  <img src="Bild/Nautre5.JPG" style="width:100%">
+  <p class="w3-xlarge w3-text-grey"></p>
 
-    </main>   
-    </body>
-    </html>
+<div class="w3-half w3-container">
+  <img src="Bild/Nautre2.JPG" style="width:100%">
+  <p class="w3-xlarge w3-text-grey"></p>
+ </div>
+</div>
 
+<!-- Footer -->
+<div class="w3-row w3-section">
+   <div class="w3-third w3-center w3-large w3-dark-grey w3-text-white" style="height:150px">
+    <h2>Add  pictures</h2>
+    <p>If you have an idea or pictures</p>
+  </div>
+  <div class="w3-third w3-center w3-large w3-grey w3-text-white" style="height:150px">
+    <h2>Like </h2>
+    <i class="w3-xlarge in in-instagram-p"></i><br>
+    <i class="w3-xlarge fa fa-pinterest-p"></i><br>
+  </div>
+  <div class="w3-third w3-center w3-large w3-grey w3-text-white" style="height:150px">
+  
+  </div>
+</div>
+<div class="w3-container w3-text-grey">
+  <p>Mariella Burri &#169;</a></p>
+</div>
