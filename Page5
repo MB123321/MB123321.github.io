@@ -24,34 +24,38 @@
   </ul>  
   </nav> 
 
-<table border="1" width="100%" cellpadding="5" cellspacing="5">
+<h5>Anzahl der in der Roten Liste gelisteter bedrohter Arten  gliedert nach Artengruppen und Jahren</h2>
+
+<table style="width:100%">
   <tr>
-    <th>Panama-Kapuzineraffe</th>
-    <th>Gorilla</th>
-    <th>Schimpanse</th>
-    <th>Mensch</th>
+    <th>Artengruppe/Jahr</th>
+    <th>2000</th> 
+    <th>2010</th>
+    <th>2016</th>
   </tr>
   <tr>
-    <td colspan="4">Anthropoidea</td>
+    <td>Säugetiere</td>
+    <td>1.130</td>
+    <td>1.131</td>
+    <td>1.203</td>
   </tr>
   <tr>
-    <td>Platyrrhini</td>
-    <td colspan="3">Catarrhini</td>
+    <td>Vögel</td>
+    <td>1.182</td>
+    <td>1.240</td>
+    <td>1.375</td>
   </tr>
   <tr>
-    <td>Cebidae</td>
-    <td colspan="3">Hominidae</td>
+    <td>Wirbellose</td>
+    <td>1.493</td>
+    <td>2.041</td>
+    <td>3.113</td>
   </tr>
-  <tr>
-    <td>Cebus</td>
-    <td>Gorilla</td>
-    <td>Pan</td>
-    <td>Homo</td>
-  </tr>
-  <tr>
-    <td>imitator</td>
-    <td>gorilla</td>
-    <td>troglodytes</td>
-    <td>sapiens</td>
-  </tr>
+    <td>Pflanzen</td>
+    <td>5.611</td>
+    <td>8.724</td>
+    <td>11.562</td>
 </table>
+
+</body>
+</html>

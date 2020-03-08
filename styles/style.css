@@ -3,12 +3,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   }
 
+  div {
+    background-color: white;
+    width: 0;
+    border: none;
+    padding: none;
+    margin: none;   
+  }
+
   div.a {
     text-align-last: left;
   }
- 
 
-table {
+a {
+  color: grey;
+}
+
+h1 {
+  color: darkgrey;
+}
+
+h2{
+  color: grey;
+}
+h3{
+  color: blue;
+  text-shadow: 3px 2px lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+  table {
   border: dashed 2px black;
   background-color: grey;
 }
