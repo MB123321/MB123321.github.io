@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="a free online art gallery">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Mariella Burri">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> a way to express art </title>
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Vidaloka&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<body class="w3-content" style="max-width:1200px">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <!--Navigation-->
+<nav>
+  <ul>
+    <div class="w3-row"></div>
+    <a href="#" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
+      <a href="Page3">clean ocean</a>
+    <a href="Page4">forest protection</a>
+    <a href="Page5">stopp extinction</a>
+  </ul>  
+  </nav> 
+
+
+
+<p> 3 Carbon-Storing Trees </p>
+	<ol>
+    <li>Yellow Poplar (or Tulip Tree), the top carbon-storer in one New York City study, works hard under rough conditions.</li>
+    <li>Silver Maple can trap nearly 25,000 pounds of CO2 in a 55 year period, according to the Center for Urban Forests.</li>
+    <li>Oak (White Oak, Willow Oak, Laurel Oak and Scarlet Oak) has adapted to thrive in many climates, provides food and shelter to wildlife.</li>
+	</ol>
+	<a href="https://learn.eartheasy.com/articles/10-carbon-storing-trees-and-how-to-plant-them/"> more facts about carbon-storing trees </a>
+
+

@@ -1,135 +1,28 @@
-display: inline-block;
-}
-
-ul {
-  list-style-type: none;
+body {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(235, 240, 241);
-}
-
-nav {
-    width: calc(75% - 75px);
-    margin: 25px 25px 25px 0px;
-    float: right;
-    float: left;
-}
-nav a {
-  display: block;
-  color:black;
-  font-family: "Aharoni", Arial, Helvetica, serif;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
   }
 
-aside {
-    width: 25%;
-@@ -65,6 +81,26 @@ img {
-}
-</style>
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-
-  div.desc {
-    padding: 15px;
+  div.a {
     text-align: center;
-  }
 
+div {
+  margin-left: 200px;
+  padding: left 20;
+}
 
-  @ -1,15 +1,78 @@
-  nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li a {
-      display: block;
-      width: 60px;
-      background-color: #dddddd;
-    }
-    
-  
-    
-    
-  <style>
-   {
-      color: #999999;
-      font-size: 20px;
-      font-weight: 400;
-      box-sizing: border-box;
-      font-family: 'Monteserat', Arial, sans-serif;
-  }
-  
-  header,
-  nav,
-  section,
-  aside,
-  footer {
-      text-align: center;
-      border-radius: 7px;
-      padding: 25px;
-      box-shadow: 0 5px 15px rgba(0,0,0,.08);
-  }
-  
-  header {
-      width: 25%;
-      margin: 25px 25px 25px 25px;
-      display: inline-block;
-  }
-  
-  nav {
-      width: calc(75% - 75px);
-      margin: 25px 25px 25px 0px;
-      float: right;
-  }
-  
-  aside {
-      width: 25%;
-      float: left;
-      min-height: 517px;
-  }
-  
-  section {
-      float: left;
-      width: calc(75% - 75px);
-      margin: 0 25px 25px 25px;
-  }
-  
-  section header,
-  section article,
-  section footer {
-      width: 100%;
-      border-radius: 7px;
-      border: 1px solid #e5e5e5;
-      box-shadow: none;
-      margin: 25px 0px 0px 0px;
-      padding: 50px;
-  }
-  
-  footer {
-      width: 96.5%;
-      margin: 25px 25px 0px 25px;
-      clear: both;
-  }
-  
-  img {
-    size: 30%;
-    width: 20%;
-  }
+table {
+  border: dashed 2px black;
+  background-color: grey;
+}
+
+tr {
+  border: solid 2px turquoise;
+  background-color: rgb(110, 132, 139);
+}
+
+td {
+  background-color: whitesmoke;
+  border: rgb(65, 73, 184) dotted;
+  font-style: italic;
+}
