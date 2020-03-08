@@ -14,6 +14,16 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
+<nav>
+  <ul>
+    <div class="w3-row"></div>
+    <a href="index.html" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
+      <a href="Page3">clean oceans</a>
+    <a href="Page4">forest protection</a>
+    <a href="Page5">stopp extinction</a>
+  </ul>  
+  </nav> 
+
 <table border="1" width="100%" cellpadding="5" cellspacing="5">
   <tr>
     <th>Panama-Kapuzineraffe</th>

@@ -19,17 +19,30 @@
 <nav>
   <ul>
     <div class="w3-row"></div>
-    <a href="#" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
-      <a href="Page3">clean ocean</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
+      <a href="Page3">clean oceans</a>
     <a href="Page4">forest protection</a>
     <a href="Page5">stopp extinction</a>
   </ul>  
   </nav> 
 
 </div.a>
+
 <div class="w3-half w3-container w3-xlarge w3-text-grey">
   <h2 class="w3-section" 
   alt><b>Microplastics in different forms are present in almost all water systems in the world, be they streams, rivers, lakes, or oceans.
   
   <small>
-  <a href="https://www.pbs.org/wgbh/nova/article/freshwater-microplastics/" >link to the fact </b></h2>
+  <a href="https://www.pbs.org/wgbhS/nova/article/freshwater-microplastics/" >link to the fact </b></h2>
+  </a>
+  
+<p> Plastik ist ein nützlicher Altagsgegenstad. Doch hat er seine Tücken. Weltweit schwimmen schätzungsweise 86 Millionen Tonnen Plastik  in unseren Ozeanen. Dazu gehören Plstiksäcke, Ballone, SChuhe, Verpackungsmaterialien. Dabei ist die Problematik, da normaler fossiler Kunststoff nicht abbaubar ist, dass er immer öfters in Mägen vin Walen, Möven, Meeresschildkröten und anderen Tierengelagnt. Dabei bleiben Plstikteile im Hals stecken oder versopfen den Verdauungstrakt wie auch Atemwege könnnen davon betroffen sein. Tiere können sich ebenfalls in Plastik, wie beispielsweise alten Fischernetzen verhedern und daran sterben. Auch kann der Abfall wieder ans Lad zurückgeschwemmt werden und Strände und Küstengebiete verschmutzen. Wie dies in dem daruter abgebildeten Bild gut ersichtlich wird. Jedes jahr gelangen ca. 4,8 - 12,7 millionen Tonnen von Plastikmüll, laut dem WWF, in die Meere. Dabei trägt vorallem Südostasien dazu bei.Links zu ORganisationen welche sich für saubere Meere einsetzen sind im aside ersichtlich. </p>
+
+<aside>
+<h3><a href="https://4ocean.com/" <4ocean </a> </h3>
+ </aside>
+
+<aside>
+<h4>Link zu 4 ocean</h4>
+<a href="https://4ocean.com/" </a>
+</aside>
