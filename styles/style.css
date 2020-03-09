@@ -27,9 +27,10 @@ h1 {
 h2{
   color: grey;
 }
-h3{
+h6{
   color:darkcyan;
   text-shadow: 3px 2px lightblue;
+
 }
 
 a {
@@ -52,6 +53,3 @@ td {
   border: rgb(65, 73, 184) dotted;
   font-style: italic;
 }
-
-	
-
