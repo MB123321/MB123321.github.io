@@ -53,3 +53,7 @@ td {
   border: rgb(65, 73, 184) dotted;
   font-style: italic;
 }
+
+.foo[style*="color: red"] { 
+  color: firebrick !important;
+}
