@@ -24,6 +24,14 @@
   </ul>  
   </nav> 
 
+<body>
+</div.a>
+<div class="w3-half w3-container w3-xlarge w3-text-grey">
+  <h1 class="w3-section" 
+  alt><b> die derzeitige Aussterberate von 3 bis 130 Arten pro Tag um den Faktor 100 bis 1.000 über dem natürlichen Wert liegt</b></h1>
+  </div>
+
+
 <h5>Anzahl der in der Roten Liste gelisteter bedrohter Arten  gliedert nach Artengruppen und Jahren</h2>
 
 <table style="width:100%">
@@ -56,11 +64,36 @@
     <td>8.724</td>
     <td>11.562</td>
 </table>
-
-</body>
-
-
 <div class="gallery">
-<img src="Bild/Bild1EXTINCTION.JPG" style="width:100%">
-<div class="w3-half w3-container">
+    <img src="Bild/Bild1EXTINCTION.JPG" >
+    <div class="w3-half w3-container">
+    </div>
+    <div class="gallery">
+      <img src="Bild/Bild2EXTINCTION.JPG" >
+      <div class="w3-half w3-container">
+      </div>
 
+      <div class="gallery">
+        <img src="Bild/Bild3EXTINCTION.JPG" >
+        <div class="w3-half w3-container">
+        </div>
+    
+        <div class="gallery">
+          <img src="Bild/Bild4EXTINCTION.JPG" >
+          <div class="w3-half w3-container">
+          </div>
+          <div class="gallery">
+            <img src="Bild/Bild5EXTINCTION.JPG" >
+            <div class="w3-half w3-container">
+            </div>
+
+            <div class="gallery">
+              <img src="Bild/Bild6EXTINCTION.JPG" >
+              <div class="w3-half w3-container">
+              </div>
+
+<aside>
+<h3>Link zu WWF</h3>
+<a href="https://www.wwf.ch/de/spenden/den-regenwald-schuetzen" </a>
+</aside>
+</body>

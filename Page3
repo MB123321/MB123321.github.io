@@ -43,16 +43,18 @@
  </aside>
 
 <aside>
-<h3>Link zu 4 ocean</h3>
+<h4>Link zu 4 ocean</h4>
 <a href="https://4ocean.com/" </a>
 </aside>
 
+
+<!--Diese Bilder erscheinen einfach nicht sollten trotzdem richtig sein, bei index.html funktioniert es wenn ich es dort rein kopiere--> 
 <div class="gallery">
   <img src="Bild/Bild2OCEAN.JPG" >
   <div class="w3-half w3-container">
   </div>
 
-  <div class="gallery">
+<div class="gallery">
   <img src="Bild/Bild1OCEAN.JPG" >
   <div class="w3-half w3-container">
   </div>

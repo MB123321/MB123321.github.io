@@ -28,7 +28,7 @@ h2{
   color: grey;
 }
 h3{
-  color: blue;
+  color:darkcyan;
   text-shadow: 3px 2px lightblue;
 }
 
@@ -52,4 +52,6 @@ td {
   border: rgb(65, 73, 184) dotted;
   font-style: italic;
 }
+
+	
 
