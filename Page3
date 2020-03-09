@@ -46,3 +46,16 @@
 <h3>Link zu 4 ocean</h3>
 <a href="https://4ocean.com/" </a>
 </aside>
+
+<div class="gallery">
+  <img src="Bild/Bild2OCEAN.JPG" >
+  <div class="w3-half w3-container">
+  </div>
+
+  <div class="gallery">
+  <img src="Bild/Bild1OCEAN.JPG" >
+  <div class="w3-half w3-container">
+  </div>
+
+</body>
+      

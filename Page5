@@ -58,4 +58,9 @@
 </table>
 
 </body>
-</html>
+
+
+<div class="gallery">
+<img src="Bild/Bild1EXTINCTION.JPG" style="width:100%">
+<div class="w3-half w3-container">
+
