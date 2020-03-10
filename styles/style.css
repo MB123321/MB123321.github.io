@@ -87,11 +87,11 @@ width: 200px;
 }
 
 @keyframes example {
-  0%   {background-color:grey; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:turquoise; left:0px; top:200px;}
-  100% {background-color:green; left:0px; top:0px;}
+  0%   {background-color:lightseagreen; left:0px; top:0px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:0px;}
+  50%  {background-color:lightskyblue; left:200px; top:200px;}
+  75%  {background-color:lightslategray; left:0px; top:200px;}
+  100% {background-color:lightgreen; left:0px; top:0px;}
 
   div.gallery{
     margin: 5px;
