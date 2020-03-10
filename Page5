@@ -20,7 +20,7 @@
     <a href="index.html" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
       <a href="Page3">clean oceans</a>
     <a href="Page4">forest protection</a>
-    <a href="Page5">stopp extinction</a>
+    <a href="Page5">stop extinction</a>
   </ul>  
   </nav> 
 
@@ -28,12 +28,11 @@
 </div.a>
 <div class="w3-half w3-container w3-xlarge w3-text-grey">
   <h1 class="w3-section" 
-  alt><b> die derzeitige Aussterberate von 3 bis 130 Arten pro Tag um den Faktor 100 bis 1.000 über dem natürlichen Wert liegt</b></h1>
+  alt><b> Die derzeitige Aussterberate von 3 bis 130 Arten pro Tag um den Faktor 100 bis 1.000 über dem natürlichen Wert liegt</b></h1>
   </div>
 
 
 <h5>Anzahl der in der Roten Liste gelisteter bedrohter Arten  gliedert nach Artengruppen und Jahren</h2>
-
 <table style="width:100%">
   <tr>
     <th>Artengruppe/Jahr</th>
@@ -92,7 +91,7 @@
               <div class="w3-half w3-container">
               </div>
 
-<p id="exciting">Es ist wichtig, dass alle Tierarten geschützt werden, da sie zur Balance des Ökosystemsbeitragen</p>
+<p id="exciting">Es ist wichtig, dass alle Tierarten geschützt werden, da sie zur Balance des Ökosystems beitragen</p>
 <aside>
  <a href="https://www.wwf.ch/de/stories/artenschutz-im-visier">Link zu wwf</a> 
 </aside>

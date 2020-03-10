@@ -22,7 +22,7 @@
     <a href="index.html" class="w3-bar-item w3-button w3-white"><i class="fa fa-home"></i></a>
       <a href="Page3">clean oceans</a>
     <a href="Page4">forest protection</a>
-    <a href="Page5">stopp extinction</a>
+    <a href="Page5">stop extinction</a>
   </ul>  
   </nav> 
 
@@ -46,8 +46,6 @@
 <a href="https://4ocean.com/">Link zu 4 ocean </a>
 </aside>
 
-
-<!--Diese Bilder erscheinen einfach nicht sollten trotzdem richtig sein, bei index.html funktioniert es wenn ich es dort rein kopiere--> 
 <div class="gallery">
   <img src="Bild/Bild2OCEAN.JPG" >
   <div class="w3-half w3-container">

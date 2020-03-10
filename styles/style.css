@@ -57,3 +57,22 @@ td {
 .foo[style*="color: red"] { 
   color: firebrick !important;
 }
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+img {
+  float: left;
+}
