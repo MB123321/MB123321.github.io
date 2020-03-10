@@ -76,3 +76,41 @@ a:visited {
 img {
   float: left;
 }
+
+aside {
+width: 200px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 30s;
+}
+
+@keyframes example {
+  0%   {background-color:grey; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:turquoise; left:0px; top:200px;}
+  100% {background-color:green; left:0px; top:0px;}
+
+  div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  a:hover {
+    background-color: yellow;
+  }
+
+
