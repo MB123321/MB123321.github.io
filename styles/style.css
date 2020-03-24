@@ -139,9 +139,9 @@ width: 200px;
     height: auto;
   }
 
-h2.pos_right {
+pos_right {
   position: relative;
-  left: 20px;
+  left: 200px;
 }
 
 
@@ -161,7 +161,7 @@ footer {
     margin-top: 2em;
 }
 
-/* muss noch angepasst werden auf meine website- Prinzip */
+
 /* responiveness */
 @media screen and (min-width: 40em) {
   main {
@@ -182,7 +182,7 @@ footer {
       column-gap: 20px;
   }
 
-  article {
+  main; {
       margin-bottom: 0;
   }
 
@@ -190,4 +190,16 @@ footer {
       border-top: 1px solid #ccc;
       margin-top: 2em;
   }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+}
+/* For tablets: */
+ @media only screen and (min-width: 600px) {
+ }
+  
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
