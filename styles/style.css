@@ -230,7 +230,7 @@ nav ul {
 }
 }
 
-@media screen and (min-width: 70em) {
+@media screen and (min-width: 70em) {}
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -245,19 +245,19 @@ footer {
     border-top: 1px solid #ccc;
     margin-top: 2em;
 }
-}
 
 /* For desktop: */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
+{width: 100%}
+
 /* For tablets: */
-@media only screen and (min-width: 600px) {
-}
+@media only screen and (min-width: 600px) {}
+{width: 100%}
 
 /* For mobile phones: */
-[class*="col-"] {
-width: 100%;
-}
+[class*="col-"]{}
+width: 100%}
+
 
 text {
 position: relative;
