@@ -1,4 +1,105 @@
-Trees are the longest living organisms on Earth, and never die of old age.<div class="dropdown">
+<body>
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rees are the longest living organisms on Earth, and never die of old age.<div class="dropdown">
   <span>Mouse over for a fun fact about trees</span>
   <div class="dropdown-content">
   <p></p>Trees are the longest living organisms on Earth, and never die of old age.
@@ -40,7 +141,226 @@ bootstrepthttps://www.w3schools.com/css/css_grid.asp
 https://www.w3schools.com/w3css/w3css_responsive.asp
 
 
-https://www.nationalgeographic.de/planet-or-plastic/2019/03/energie-durch-plastikverbrennung-keine-gute-idee
+https://www.nationalgeographic.de/planet-or-plastic/2019/03/energie-durch-plastikverbrennung-k
+  div.a {
+    text-align-last: left;
+  }
+
+a {
+  color: grey;
+}
+
+h1 {
+  color: darkgrey;
+}
+
+h2{
+  color: grey;
+}
+h6{
+  color:darkcyan;
+  text-shadow: 3px 2px lightblue;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+  table {
+  border: dashed 2px  solid black;
+  background-color: grey;
+}
+
+@media screen and (min-width: 40em) {
+  article {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      column-gap: 20px;
+  }
+
+  nav ul {
+      display: flex;
+      overflow: hidden;
+  }
+
+  nav li {
+      flex: 1;
+  }
+}
+
+@media screen and (min-width: 70em) {
+
+  }
+
+tr {
+  border: solid 2px turquoise;
+  background-color: rgb(110, 132, 139);
+}
+
+td {
+  height: auto;
+  background-color: whitesmoke;
+  border: rgb(65, 73, 184) dotted;
+  font-style: italic;
+}
+
+.foo[style*="color: red"] { 
+  color: firebrick !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+$
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+img {
+  float: left;
+}
+
+div {
+  background-color: white;
+  width: 0;
+  border: none;
+  padding: none;
+  margin: none;   
+} 
+
+aside {
+width: 200px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  animation-name: example;
+  animation-duration: 30s;
+}
+
+@keyframes example {
+  0%   {background-color:lightseagreen; left:0px; top:0px;}
+  25%  {background-color:lightgoldenrodyellow; left:200px; top:0px;}
+  50%  {background-color:lightskyblue; left:200px; top:200px;}
+  75%  {background-color:lightslategray; left:0px; top:200px;}
+  100% {background-color:lightgreen; left:0px; top:0px;}
+
+  div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  a.hover {
+    background-color: yellow;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+pos_right {
+  position: relative;
+  left: 200px;
+}
 
 
-https://www.nationalgeographic.de/planetorplastic
+@media screen and (min-width: 70em) {
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+}
+
+article {
+    margin-bottom: 0;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 2em;
+}
+
+
+/* responiveness */
+@media screen and (min-width: 40em) {
+  main {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      column-gap: 20px;
+  }
+
+  nav ul {
+      display: flex;
+  }
+}
+
+@media screen and (min-width: 70em) {
+  main {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      column-gap: 20px;
+  }
+
+  main; {
+      margin-bottom: 0;
+  }
+
+  footer {
+      border-top: 1px solid #ccc;
+      margin-top: 2em;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+}
+/* For tablets: */
+ @media only screen and (min-width: 600px) {
+ }
+  
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+text {
+ position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+.topnav a {
+  float: left;
+  display: wihte;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
