@@ -18,10 +18,6 @@ body {
   height: 82px
 }
 
-.paragraph-inner{
-  box-sizing: inherit;
-}
-
 .field-name-field-visual-title-field-type--string-field_item {
   box-sizing: inherit;
   text-align: center;
@@ -64,13 +60,6 @@ class column
  #"top"
  @media screen and min (min-width: 70px)
 
-https://fontawesome.com/
-
-bootstrepthttps://www.w3schools.com/css/css_grid.asp
-https://www.w3schools.com/w3css/w3css_responsive.asp
-
-
-https://www.nationalgeographic.de/planet-or-plastic/2019/03/energie-durch-plastikverbrennung-k
 div.a {
   text-align-last: left;
 }
