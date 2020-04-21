@@ -302,10 +302,28 @@ text-decoration: none;
   padding-right: 20px;
 }
 
+<--Ab heute neue CSS--> 
+img{
+  max-width: 50;
+  height: auto;
+}
 
+.navbar{
+  display: inline;
+}
 
+li a: hover:not(.active){
+  color: white;
+  background-color: #4CAF50;
+}
 
+.img1 {
+  width: 100%;
+  position: relative;
+}
 
-
-
-  
+.title1 {
+text-align: center;
+line-height: 1.25cm;
+color: teal;
+}
