@@ -5,6 +5,13 @@ body {
   line-height: 1.5;
   color: #777;
   }
+  
+.title1 {
+    text-align: center;
+    line-height: 1.25cm;
+    color: teal;
+    }
+    
 
   .grid-container {
     display: grid;
@@ -322,8 +329,3 @@ li a: hover:not(.active){
   position: relative;
 }
 
-.title1 {
-text-align: center;
-line-height: 1.25cm;
-color: teal;
-}
