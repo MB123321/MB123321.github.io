@@ -119,7 +119,6 @@ nav li {
 }
 
 @media screen and (min-width: 70em) {
-
 }
 
 tr {
@@ -179,6 +178,7 @@ animation-duration: 30s;
 50%  {background-color:lightskyblue; left:200px; top:200px;}
 75%  {background-color:lightslategray; left:0px; top:200px;}
 100% {background-color:lightgreen; left:0px; top:0px;}
+}
 
 div.gallery{
   margin: 5px;
@@ -239,18 +239,15 @@ main {
 nav ul {
     display: flex;
 }
-}
 
-@media screen and (min-width: 70em) {}
+
+@media screen and (min-width: 70em) {
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     column-gap: 20px;
 }
 
-main; {
-    margin-bottom: 0;
-}
 
 footer {
     border-top: 1px solid #ccc;
@@ -327,5 +324,6 @@ li a: hover:not(.active){
 .img1 {
   width: 100%;
   position: relative;
+  height: 200px;
 }
 
