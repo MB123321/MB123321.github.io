@@ -1,3 +1,23 @@
+
+  }
+  .topnav {
+  overflow: hidden;
+  background-color:none;
+  }
+ 
+  .topnav a {
+   float: top;
+  display: wihte;
+  color: #e6dbdb;
+  text-align: center;
+  text-decoration: none;
+  }
+
+  .topnav a:hover {
+    background-color: wheat;
+    color: teal;
+  }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size:  1rem;
@@ -25,9 +45,7 @@ body {
     background-color: #2196F3;
     padding: 10px;
   } 
-.header-nav-bar {
-  position: relative;
-  height: 82px
+
 }
 
 .field-name-field-visual-title-field-type--string-field_item {
@@ -112,15 +130,6 @@ article {
     column-gap: 20px;
 }
 
-nav ul {
-    display: flex;
-    overflow: hidden;
-}
-
-nav li {
-    flex: 1;
-}
-}
 
 @media screen and (min-width: 70em) {
 }
@@ -282,18 +291,6 @@ font-family: Arial;
 padding: 10px;
 background: #f1f1f1;
 }
-.topnav {
-overflow: hidden;
-background-color: white;
-}
-.topnav a {
-float: left;
-display: wihte;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
 
 .container {
   position: relative;
@@ -316,8 +313,7 @@ img{
   height: auto;
 }
 
-.navbar{
-  display: inline;
+
 }
 
 li a: hover:not(.active){
