@@ -62,14 +62,13 @@ min-height: 100%;
 }
 
 
-{}
-float: left;
-}
-checkbox
-chris1plus1gleich.github.io
-class column
- # "top"
- @media screen and min (min-width: 70px)
+
+ @media only screen and (min-width: 768px) {
+  .class{
+    width: 100%
+  }
+ }
+
 
 div.a {
   text-align-last: left;
