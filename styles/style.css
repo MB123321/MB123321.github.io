@@ -11,7 +11,12 @@ body {
     line-height: 1.25cm;
     color: teal;
     }
-    
+
+.title2 {
+  text-align: left;
+  line-height: 1cm;
+  color: teal;
+}
 
   .grid-container {
     display: grid;
