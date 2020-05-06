@@ -57,7 +57,7 @@ body {
  
 
 body {
-  background: #001628;
+  background: white;
   color: #777;
   padding: 4em;
   font-family: sans-serif;
@@ -66,10 +66,10 @@ body {
 
 .article {
   padding: 1em;
-  background: #fff;
+  background:#f9f9f9;
   box-shadow:
-    0 5px 10px rgba(0, 0, 0, 0.1),
-    0 20px 20px rgba(0, 0, 0, 0.05);
+    0 5px 10px rgba(219, 252, 242, 0.699),
+    0 20px 20px rgba(219, 252, 242, 0.699);
 }
 
 .archive {
@@ -85,7 +85,7 @@ body {
 hr { /*dummy content*/
   height: 6px;
   border: none;
-  background: rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
 } 
 
 hr.image { /*dummy content*/
