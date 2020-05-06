@@ -1,12 +1,11 @@
 
-  }
   .topnav {
-  overflow: hidden;
-  background-color:none;
-  }
+    overflow: hidden;
+    background-color:none;
+    }
  
   .topnav a {
-   float: top;
+  float: top;
   display: wihte;
   color: #e6dbdb;
   text-align: center;
@@ -38,68 +37,46 @@ body {
   color: teal;
 }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  } 
-
-  .wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: [col1-start] 100px  [col2-start] 100px  [col3-start] 100px [col3-end];
-          grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
-          background-color: #fff;
-          color: #444;
-      }
-
-
-.article {
-  padding: 1em;
-  background:#f9f9f9;
-  box-shadow:
-    0 5px 10px rgba(0, 0, 0, 0.699),
-    0 20px 20px rgba(0, 0, 0, 0.699);
+.container {
+  border-top: 1px solid #DADCE0;
+  overflow-x: hidden;
 }
 
-.archive {
+.frontpage {
+  margin: 0 -17px 0 -16px;
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  grid-gap: 1em;
-}
-.page {
-  padding: 2em;
-  background: #cecece;
-  max-width: 1100px;
-}
-hr { /*dummy content*/
-  height: 6px;
-  border: none;
-  background: #f9f9f9;
-} 
-
-hr.image { /*dummy content*/
-  padding-bottom: 50%;
-  size: auto;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.imgarticle {
-border: 1px soli d#ddd;
-border-radius: 4px;
-padding: 5px;
-width: 150px;
-}
-img:hover {
-  box-shadow: teal;
+.fp-cell {
+  padding: 16px;
+  background-color: #fff;
+  border-right: 1px solid #DADCE0;
+  border-bottom: 1px solid #DADCE0;
 }
 
-
-
-hr:last-child {  /*dummy content*/
-  margin-right: 60%;
+.fp-cell--1 {
+  grid-row: 1 / span 2;
 }
+
+.fp-cell--2 {
+  grid-column: 2 / span 2;
+}
+
+.fp-cell--3 {
+  grid-column: 2;
+}
+
+.fp-item {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  height: 100%;
+}
+
   
 
 .field-name-field-visual-title-field-type--string-field_item {
@@ -356,7 +333,7 @@ background: #f1f1f1;
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: black;
+  background-color: grey;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -381,4 +358,149 @@ li a: hover:not(.active){
   position: relative;
   height: 200px;
 }
+
+.navigator {
+  background: none !important;
+}
+
+
+
+body {
+background: #fff;
+padding: 0;
+margin: 0;
+font-family: Helvetica, Arial, sans-serif;
+word-wrap:break-word;
+}
+
+h1{color:white}
+a{text-decoration: none; color: black; border: 0;}
+
+div #spinner{
+position: absolute;
+height: 430px;
+width: 700px;
+margin: 245px 0px 0px 34px;
+padding: 0px;
+overflow: hidden;
+z-index: 100;
+text-align: center;
+}
+
+.main{
+width: 768px;
+height: 1004px;
+margin: 0 auto;
+padding: 0;
+}
+
+.countries-top{
+position: absolute;
+width: 650px;
+height: 140px;
+margin: 50px 0px 0px 66px; 
+}
+
+.countries-bottom{
+position: absolute;
+width: 650px;
+height: 140px;
+margin: 755px 0px 0px 60px;
+z-index: 1000;
+}
+
+.country{
+width: 120px;
+height: 140px;
+float: left;
+overflow: visible;
+}
+
+.country-bottom{
+font-family: Helvetica;
+font-size: 9pt;
+line-height: 11.2pt;
+width: 140px;
+height: 80px;
+padding-top: 10px;
+color: #ddd;
+overflow:visible;
+}
+
+.country-top{
+width: 120px;
+height: 50px;
+color: white;
+font-size: 30px;
+line-height: 26px;
+font-weight: bold;
+}
+
+.country-top.pierce{
+position: relative;
+width: 34px;
+height: 55px;
+float: left;
+margin-right: 4px;
+}
+.country-top.text{
+font-family: Helvetica;
+width: 25px;
+height: 25px;
+position: absolute;
+padding: 0;
+margin: 0;
+top: 14px;
+left: 0.25em;
+z-index: 100;
+
+}
+.country-top.top{
+width: 35px;
+height: 25px;
+background: rgb(0,172,236);
+margin-bottom: 1px;
+}
+.country-top.bottom{
+width: 35px;
+height: 25px;
+background: rgb(0,172,236);
+}
+
+
+.divider{
+float: left;
+width: 11px;
+height: 150px;
+}
+
+.shadow{
+position: absolute;
+top: 730px;
+left: 175px;
+width: 250px;
+height: 250px;
+margin: 0 auto;
+-webkit-border-radius: 125px;
+background-color: rgba(0,0,0,0.2);
+-webkit-transform:rotate3d(1, -0.6, 1, 90deg);
+z-index: 10;
+}
+
+.contents{
+position: absolute;
+top: 70px;
+left: 66px;
+width: 160px;
+height: 27px;
+background:url(images/contents.png) no-repeat;
+background-size: 100%;
+}
+
+
+
+
+
+
+
 
