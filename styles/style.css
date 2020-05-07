@@ -114,6 +114,15 @@ body {
   }
 
 /* Ende P3 Layout*/
+/*Bildlayout P3 */
+
+.articleimgP3 {
+
+}
+
+
+
+
 
 .field-name-field-visual-title-field-type--string-field_item {
   box-sizing: inherit;
@@ -235,6 +244,8 @@ color: green;
 
 img {
 float: left;
+width: 80%;
+height: 80%;
 }
 
 div {
