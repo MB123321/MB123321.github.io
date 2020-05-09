@@ -145,6 +145,14 @@ font-style: italic;
 color: firebrick !important;
 }
 
+/* iframe*/
+
+iframe {
+  height: 792px;
+  width: 1188px;
+}
+
+
 
 /* mouse over link */
 a:hover {
