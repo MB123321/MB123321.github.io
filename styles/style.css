@@ -164,6 +164,18 @@ iframe {
   width: 1188px;
 }
 
+/*banner/calc()*/
+.banner {
+  position: absolute;
+  left: 40px;
+  width: calc(100% - 80px);
+  border: solid black 1px;
+  box-shadow: 1px 2px;
+  background-color: yellow;
+  padding: 6px;
+  text-align: center;
+  box-sizing: border-box;
+}
 
 
 /* mouse over link */
@@ -322,7 +334,6 @@ background: #f1f1f1;
   padding-left: 20px;
   padding-right: 20px;
 }
-
 
 
 
