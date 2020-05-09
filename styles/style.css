@@ -78,8 +78,20 @@ font-style: normal;
   min-width: 100%;
 min-height: 100%;
 }
+/* schrift-sylen*/
+html {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+}
+p {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+h6 {
+  text-rendering: optimizeSpeed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 5.4vw;  
+}
 
-
+.help {cursor: help;}
 
  @media only screen and (min-width: 768px) {
   .class{
