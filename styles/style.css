@@ -183,7 +183,7 @@ h6 {
 
 h3 {
    background-image:linear-gradient(90deg,blue,yellow,red,purple);
-      -webkit-background-clip: text;
+      -moz-background-clip: text;
       -webkit-text-fill-color: transparent;
        }
 
@@ -403,7 +403,7 @@ footer {
 {width: 100%}
 
 /* For mobile phones: */
-[class*="col-"]{}
+[class*="col-"]{
 width: 100%}
 
 
@@ -887,26 +887,6 @@ background-size: 100%;
 }
 
 
-Write a post
-Cover image for Create A Dark/Light Mode Switch with CSS Variables
-Create A Dark/Light Mode Switch with CSS Variables
-ananyaneogi profile image Ananya Neogi twitter logo github logo Apr 10 '19 ・4 min read  
-#webdev #css #showdev
-
-Giving your users a way to customise the interface to their preference is a huge win for user experience. Here we are going to provide the user with a simple switch to toggle between dark mode and light mode and we will also try to remember their preference for future visits.
-
-Let's begin!
-
-If you don't have a website of your own to which you wish to add this functionality, use this demo website to follow along.
-
-Adding the CSS
-
-We will be adding CSS custom properties also known as CSS variables, which we can reference and modify throughout the document. If you wish to read more about custom properties you can read on MDN.
-Here's the tldr; version -
-
-    Custom properties (sometimes referred to as CSS variables or cascading variables) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., --main-color: black;) and are accessed using the var() function (e.g., color: var(--main-color);) 
-
-First, we'll add our light or default mode css variables to the :root pseudo class. It matches with the root element in your document tree, generally the <html> tag. We will use :root because we want to avail the variables globally.
 
 :root {
     --primary-color: #302AE6;
@@ -916,7 +896,7 @@ First, we'll add our light or default mode css variables to the :root pseudo cla
     --heading-color: #292922;
 }
 
-Second, we'll add our dark mode css variables.
+
 
 [data-theme="dark"] {
     --primary-color: #9A97F3;
@@ -934,23 +914,18 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
 
-    /*other styles*/
-    .....
+    
 }
 
 h1 {
     color: var(--secondary-color);
 
-    /*other styles*/
-    .....
-}
+  }
 
 a {
     color: var(--primary-color);
 
-    /*other styles*/
-    .....
-}
+    
 
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
