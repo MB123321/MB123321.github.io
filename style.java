@@ -8,7 +8,6 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";}
 
 
-
   $('.like-btn').on('click', function() {
     $(this).toggleClass('is-active');
  });
