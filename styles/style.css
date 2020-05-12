@@ -73,6 +73,35 @@ body {
   opacity: 1;
   visibility: visible;
 }
+/*Back to the top vers. 2 */
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #DDF;
+  color: #000;
+}
+
+
+
 
 /* Styles for the content section */
 
@@ -405,7 +434,12 @@ background: #f1f1f1;
   padding-right: 20px;
 }
 
-
+/*Overflow*/
+div.ex1 {
+  background-color: whitesmoke;
+  width: 1188px;
+  height: 100px;
+  overflow: auto;
 
 /*neu 10.5*/
 {
@@ -622,7 +656,8 @@ body {
 .column img {
   opacity: 0.8; 
   cursor: pointer; 
-}
+  object-fit: scale-down;
+ }
 
 .column img:hover {
   opacity: 1;
