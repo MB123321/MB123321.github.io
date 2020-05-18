@@ -1,19 +1,24 @@
-:root {
-  --primary-color: #302AE6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: #fff;
-  --heading-color: #292922;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+  
+ :root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
 }
 
 [data-theme="dark"] {
-  --primary-color: #9A97F3;
-  --secondary-color: #818cab;
-  --font-color: #e1e1ff;
-  --bg-color: #161625;
-  --heading-color: #818cab;
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
 }
-}
+
+  .dark-mode {
+    background-color: black;
+    color: white;
   }
   .topnav {
     overflow: hidden;
@@ -39,6 +44,10 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #777;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
   }
   
 .title1 {
@@ -434,6 +443,10 @@ padding: 10px;
 background: #f1f1f1;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 .container {
   position: relative;
   font-family: Arial;
@@ -994,15 +1007,26 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-/*Darkemode V3*/
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
 
 .dark-mode {
   background-color: black;
   color: white;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
