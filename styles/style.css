@@ -1094,3 +1094,10 @@ img, .darkmode-ignore {
   z-index: 500;
 }
 
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: teal;
+  -ms-transform: scaleY(1.5); /* IE 9 */
+  transform: scaleY(1.5);
+  
