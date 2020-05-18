@@ -1,25 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
-  
- :root {
-    --primary-color: #302AE6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
-}
-
-[data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
-    --heading-color: #818cab;
-}
-
-  .dark-mode {
+.dark-mode {
     background-color: black;
     color: white;
-  }
+    position: fixed;
+    float: right;
+    color: teal;
+}
+
   .topnav {
     overflow: hidden;
     background-color:none;
@@ -44,6 +30,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #777;
+  background-color: aliceblue;
   }
   .dark-mode {
     background-color: black;
@@ -136,6 +123,7 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 17px;
   color: #6c767a;
+  background-color: aliceblue;
   line-height: 1.9;
 }
 @media (min-width: 500px) {
@@ -438,10 +426,10 @@ height: 200px;
 }
 
 body {
-font-family: Arial;
-padding: 10px;
-background: #f1f1f1;
-}
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+  }
 
 .dark-mode {
   background-color: black;
@@ -897,48 +885,7 @@ background-size: 100%;
 }
 
 
-/* Darkmode versuch nr 2*/
-:root {
-  --primary-color: #302AE6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: #fff;
-  --heading-color: #292922;
-}
 
-[data-theme="dark"] {
-  --primary-color: #9A97F3;
-  --secondary-color: #818cab;
-  --font-color: #e1e1ff;
-  --bg-color: #161625;
-  --heading-color: #818cab;
-}
-
-
-
-:root {
-    --primary-color: #302AE6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
-}
-
-
-
-[data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
-    --heading-color: #818cab;
-}
-
-
-body {
-    background-color: var(--bg-color);
-    color: var(--font-color);
-  }
 
 h1 {
     color: var(--secondary-color);
