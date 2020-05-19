@@ -1056,27 +1056,6 @@ img, .darkmode-ignore {
   .darkmode-toggle {display: none !important}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .darkmode--activated p, .darkmode--activated li {
   color: #000;
 }
@@ -1088,7 +1067,7 @@ img, .darkmode-ignore {
 .darkmode--activated .logo {
   mix-blend-mode: difference;
 }
-<span class="darkmode-ignore">😬<span>
+<span class="darkmode-ignore"><span>
 
 .darkmode-layer, .darkmode-toggle {
   z-index: 500;
